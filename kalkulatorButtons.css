@@ -1,10 +1,32 @@
+@import url ("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 html,body{
-    background:grey;
-    font-family: 'Montserrat', sans-serif;
+    background:linear-gradient(
+        to right,
+        rgba(148, 250, 216, 0.5),
+        rgb(15, 15, 15)
+    ),url("src/background.jpg");
+    font-family: 'Raleway', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 *{
     margin:0;
     padding:0;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    margin-top:10rem;
+}
+.main{
+    background-color:rgba(96, 251, 200, 0.75);
+    padding:2.75rem;
+    border-radius:1.75rem;
+}
+.title{
+    margin-left:1rem;
+    font-size:2rem;
 }
 .button{
     width:50px;
@@ -12,7 +34,7 @@ html,body{
     font-size:25px;
     margin:2px;
     cursor:pointer;
-    background:#2c5364;
+    background:#4e5052;
     color:white;
     border:0;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
